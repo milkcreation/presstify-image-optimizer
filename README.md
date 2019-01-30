@@ -23,30 +23,30 @@ Le redimensionnement ne gère pas le rognage des images.
 
 Cet exemple permet d'optimiser un dossier complet avec écrasement des images existantes.
 ``` bash
- php cli-image-optimizer.php -i /path/to/images/dir/
+ vendor/bin/imgopti -i /path/to/images/dir/
 ```
 
 ### Optimisation d'un dossier vers un autre dossier
 
 Cet exemple copie toutes les images d'un dossier vers un autre dossier puis les optimise.
 ``` bash
- php cli-image-optimizer.php -i /path/to/images/dir/ -o /path/to/optimized/images/
+ vendor/bin/imgopti -i /path/to/images/dir/ -o /path/to/optimized/images/
 ```
 
 ### Optimisation et redimensionnement des images d'un dossier
 
 Cet exemple permet d'optimiser et de redimensionner les images d'un dossier complet avec écrasement des images existantes.
 ``` bash
- php cli-image-optimizer.php -i /path/to/images/dir/ -w 640 -h 640
+ vendor/bin/imgopti -i /path/to/images/dir/ -w 640 -h 640
 ```
 
 ### Optimisation d'un fichier
 
 ``` bash
- php cli-image-optimizer.php -i /path/to/image.ext
+ vendor/bin/imgopti -i /path/to/image.ext
 ```
 
 L'exemple suivant copie l'image dans un autre dossier puis l'optimise.
 ``` bash
- php cli-image-optimizer.php -i /path/to/image.ext -o /path/to/optimized/image/
+ vendor/bin/imgopti -i /path/to/image.ext -o /path/to/optimized/image/
 ```
