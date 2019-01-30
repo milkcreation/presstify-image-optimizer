@@ -1,43 +1,43 @@
 {
-    "name": "presstify-components/image-optimizer",
-    "description": "Optimisation d'images",
-    "type": "presstify-component",
-    "homepage": "https://svn.tigreblanc.fr/presstify-components/image-optimizer",
-    "time": "2019-01-30",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Julien Picard",
-            "email": "julien@tigreblanc.fr",
-            "homepage": "https://tigreblanc.fr/digital",
-            "role": "Developer"
-        },
-	{
-      	    "name": "Jordy Manner",
-            "email": "jordy.manner@milkcreation.fr",
-            "role": "Contributor"
-        }
-    ],
-    "require": {
-        "php": "^7.0",
-        "ext-fileinfo" : "*",
-	"composer/installers": "~1.0",
-        "spatie/image": "^1.5"
+  "name": "presstify-components/image-optimizer",
+  "description": "Optimisation d'images",
+  "type": "presstify-component",
+  "homepage": "https://svn.tigreblanc.fr/presstify-components/image-optimizer",
+  "time": "2019-01-30",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Julien Picard",
+      "email": "julien@tigreblanc.fr",
+      "homepage": "https://tigreblanc.fr/digital",
+      "role": "Developer"
     },
-    "autoload": {
-        "psr-4": {
-            "tiFy\\Components\\ImageOptimizer\\": ""
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config" : {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "secure-http": false,
-        "sort-packages": true
-    },
-    "bin": [
-        "src/imgopti"
-    ]
+    {
+      "name": "Jordy Manner",
+      "email": "jordy.manner@milkcreation.fr",
+      "role": "Contributor"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "ext-fileinfo": "*",
+    "composer/installers": "~1.0",
+    "spatie/image": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "tiFy\\Components\\ImageOptimizer\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "secure-http": false,
+    "sort-packages": true
+  },
+  "bin": [
+    "bin/imgopti"
+  ]
 }
