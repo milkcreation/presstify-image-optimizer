@@ -3,7 +3,7 @@
 ## Installation
 
 ``` bash
-composer install
+composer require presstify-components/image-optimizer
 ```
 
 ## Options
