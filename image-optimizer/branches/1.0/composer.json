@@ -37,7 +37,7 @@
         "secure-http": false,
         "sort-packages": true
     },
-    "bin": {
+    "bin": [
         "src/imgopti"
-    }
+    ]
 }
