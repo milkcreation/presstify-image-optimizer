@@ -3,7 +3,7 @@
   "description": "Optimisation d'images",
   "type": "presstify-component",
   "homepage": "https://svn.tigreblanc.fr/presstify-components/image-optimizer",
-  "time": "2019-02-14",
+  "time": "2020-01-15",
   "license": "proprietary",
   "authors": [
     {
@@ -16,6 +16,12 @@
       "name": "Jordy Manner",
       "email": "jordy.manner@milkcreation.fr",
       "role": "Contributor"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.tigreblanc.fr/presstify-components/image-optimizer"
     }
   ],
   "require": {
